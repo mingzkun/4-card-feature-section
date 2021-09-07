@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+body {
+    @apply min-w-0 sm:min-w-full xl:min-w-0 min-h-0 max-h-full bg-very-light-gray sm:overflow-x-hidden
+}
+
+a{
+    @apply underline hover:text-very-dark-blue
+}
+
+p{
+    @apply text-sm font-normal text-grayish-blue
+}
+
+#feature{
+    @apply flex flex-col items-center gap-10 mt-20 mx-4 xl:mx-auto
+}
+
+img.icon{
+    @apply self-end pt-8
+}
+
+footer{
+    @apply flex flex-col justify-center items-center gap-1 xl:flex-row p-6
+}
